@@ -81,6 +81,7 @@
 .cardText {
   display: flex;
   justify-content: center;
+  font-weight: 500;
 }
 
 @keyframes grow {
@@ -174,4 +175,28 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+/* Small screen */
+@media only screen and (max-width: 1130px) {
+  .mainContent {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .cardProfile {
+    transform: rotate(0deg);
+  }
+
+  .AboutTitle {
+    text-align: center;
+  }
+
+  .AboutText {
+    text-align: center;
+  }
+
+  .ContactButton {
+    justify-content: center;
+  }
 }
