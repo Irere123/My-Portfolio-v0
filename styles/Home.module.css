@@ -1,0 +1,177 @@
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Header {
+  margin-bottom: 20px;
+}
+
+.IElogo {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  animation: grow 0.5s infinite alternate;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardProfile {
+  background-color: #fff;
+  width: 380px;
+  border-radius: 7px;
+  transform: rotate(-5deg);
+  height: 500px;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.13);
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.cardProfileImage {
+  width: 340px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cardButtons > * {
+  margin: 20px;
+}
+
+.cardButtons > .github {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.cardButtons > .facebook {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes grow {
+  to {
+    transform: scale(1.1);
+    color: goldenrod;
+  }
+}
+
+.AboutTitle {
+  font-size: 30px;
+  font-family: "Source Code Pro";
+}
+
+.AboutTitle > h1 {
+  margin-top: 10px;
+}
+
+.AboutText {
+  width: 500px;
+}
+
+.AboutText > h4 {
+  font-weight: 400;
+}
+
+.ContactButton {
+  display: flex;
+}
+
+.ContactButton > * {
+  margin-right: 30px;
+}
+
+.ContactButton > .HireMeButton {
+  background-color: #fff;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.HireMeButton:hover {
+  transform: scale(1.1);
+}
+
+.ContactButton > .ProjectsButton {
+  background-color: #fff;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.ProjectsButton:hover {
+  transform: scale(1.1);
+}
+
+.SkillsContainer {
+  display: flex;
+}
+
+.SkillsContainer > * {
+  margin-right: 10px;
+}
+
+.SkillsTitle {
+  font-size: 20px;
+  font-family: Calibri;
+}
+
+.SkillCard {
+  background-color: #fff;
+  width: 170px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.MoreButton {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}

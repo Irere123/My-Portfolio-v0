@@ -1,0 +1,35 @@
+.Projects {
+  margin-top: 50px;
+}
+
+.Projects > h1 {
+  margin-left: 10px;
+  font-weight: 600;
+  font-family: Calibri;
+}
+
+.ProjectsCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProjectsCards > * {
+  margin: 10px;
+}
+
+.ProjectCard {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 10px 20px;
+}
+
+.ProjectCard > h1 {
+  text-align: center;
+}
+
+.neox {
+  font-size: 60px;
+  font-family: Calibri;
+}

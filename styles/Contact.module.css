@@ -1,0 +1,21 @@
+.ContactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardContact {
+  background-color: #fff;
+  width: 600px;
+  height: 400px;
+  margin-top: 100px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.CardContact > h1 {
+  margin-top: 0;
+  font-family: Calibri;
+}
