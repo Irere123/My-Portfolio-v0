@@ -18,7 +18,6 @@
   justify-content: center;
   align-items: center;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.13);
-  cursor: pointer;
   animation: grow 0.5s infinite alternate;
 }
 
@@ -67,6 +66,11 @@
   align-items: center;
   border: 2px solid #000;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.cardButtons > .github:hover {
+  transform: scale(1.1);
 }
 
 .cardButtons > .facebook {
@@ -76,6 +80,11 @@
   align-items: center;
   border: 2px solid #000;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.cardButtons > .facebook:hover {
+  transform: scale(1.1);
 }
 
 .cardText {
