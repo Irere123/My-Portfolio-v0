@@ -10,7 +10,6 @@ export default function Home() {
       <Head>
         <title>Irere Emmanuel - Home</title>
         <meta name="description" content="Hi, I am Irere Emmanuel" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.mainContent}>

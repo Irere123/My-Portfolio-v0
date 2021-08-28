@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
-import Image from "next/link";
+import { GitHub, Facebook, Twitter, Instagram } from "@material-ui/icons";
 
 import styles from "../styles/Home.module.css";
 
@@ -11,16 +11,29 @@ function Card() {
       <div className={styles.cardProfile}>
         <div className={styles.cardProfileImage}></div>
         <div className={styles.cardButtons}>
-          <div className={styles.github}>
-            <Link href="https://www.github.com/irere123">
-              <a>Github</a>
-            </Link>
-          </div>
-          <div className={styles.facebook}>
-            <Link href="https://www.facebook.com/">
-              <a>Facebook</a>
-            </Link>
-          </div>
+          <Link href="https://www.github.com/irere123">
+            <a>
+              <GitHub />
+            </a>
+          </Link>
+
+          <Link href="https://twitter.com/irere_emmanuel">
+            <a>
+              <Twitter />
+            </a>
+          </Link>
+
+          <Link href="https://www.instagram.com/irere_25/">
+            <a>
+              <Instagram />
+            </a>
+          </Link>
+
+          <Link href="https://www.facebook.com/irere.emmanuel.5">
+            <a>
+              <Facebook />
+            </a>
+          </Link>
         </div>
         <div className={styles.cardText}>
           <p>
