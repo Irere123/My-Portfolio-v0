@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
 
@@ -18,8 +19,8 @@ function About() {
         </h4>
       </div>
       <div className={styles.ContactButton}>
-        <Link href="/contact">
-          <a className={styles.HireMeButton}>Hire me</a>
+        <Link href="mailto:irere2050@gmail.com">
+          <a className={styles.HireMeButton}>Talk to me</a>
         </Link>
         <Link href="/projects">
           <a className={styles.ProjectsButton}>Projects</a>
