@@ -85,6 +85,13 @@
   font-weight: 500;
 }
 
+.Image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.13);
+}
+
 @keyframes grow {
   to {
     transform: scale(1.1);

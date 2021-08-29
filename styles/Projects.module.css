@@ -33,4 +33,87 @@
 .neox {
   font-size: 60px;
   font-family: Calibri;
+  margin-bottom: 20px;
+}
+
+.NeoxIntro {
+  font-family: "Ubuntu", Calibri;
+}
+
+.NeoxIntro > a {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 4px;
+  border-radius: 3px;
+  transition: transfrom 100ms ease-in-out;
+}
+
+.NeoxIntro > a:hover {
+  transform: scale(1.09);
+}
+
+.news {
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: "Ubuntu";
+}
+
+.NewsIntro {
+  font-family: "Ubuntu";
+  margin-bottom: 10px;
+}
+
+.NewsIntro > a {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 4px;
+  border-radius: 3px;
+  transition: transfrom 100ms ease-in-out;
+}
+
+.NewsIntro > a:hover {
+  transform: scale(1.09);
+}
+
+.QC {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.QCIntro {
+  font-family: "Ubuntu";
+  margin-bottom: 10px;
+}
+
+.QCIntro > a {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 4px;
+  border-radius: 3px;
+  transition: transfrom 100ms ease-in-out;
+}
+
+.QCIntro > a:hover {
+  transform: scale(1.09);
+}
+
+.twc {
+  font-size: 50px;
+}
+
+.TWCIntro {
+  font-family: "Ubuntu";
+  margin-bottom: 20px;
+}
+
+.TWCIntro > a {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 4px;
+  border-radius: 3px;
+  transition: transfrom 100ms ease-in-out;
+}
+
+.QCIntro > a:hover {
+  transform: scale(1.09);
 }

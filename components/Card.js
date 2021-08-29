@@ -5,14 +5,14 @@ import Image from "next/image";
 import { GitHub, Facebook, Twitter, Instagram } from "@material-ui/icons";
 
 import styles from "../styles/Home.module.css";
-import profilePic from "../public/pic.jpg";
+import profilePic from "../public/irere.jpg";
 
 function Card() {
   return (
     <div className={styles.CardContainer}>
       <div className={styles.cardProfile}>
         <div className={styles.cardProfileImage}>
-          {/* <Image src={profilePic} alt="Irere Emmy" className={styles.Img} /> */}
+          <Image className={styles.Image} src={profilePic} alt="Irere Emmy" />
         </div>
         <div className={styles.cardButtons}>
           <Link href="https://www.github.com/irere123">

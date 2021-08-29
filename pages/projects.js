@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
@@ -18,10 +19,11 @@ function Projects() {
       <div className={styles.ProjectsCards}>
         <div className={styles.ProjectCard}>
           <h1 className={styles.neox}>NEOX</h1>
-          <div>
+          <div className={styles.NeoxIntro}>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              sunt nulla voluptatem illo culpa ex optio ea dolore veniam ad?
+              NEOX is a platform for communication between students and other
+              peple as well where you can collaborate and solve problems
+              together in teams
             </p>
             <Link href="https://neoxrw.netlify.com/register">
               <a>Learn More</a>
@@ -30,18 +32,42 @@ function Projects() {
         </div>
         <div className={styles.ProjectCard}>
           <h1 className={styles.news}>NEWS</h1>
-          <div>
+          <div className={styles.NewsIntro}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio neque assumenda illo labore facere. Ex in deserunt
+              NEWS, Read, Mage, write your news so that other people can see it.
+              It's equiped with a Great UI and Powerdul Admin Dashboard to help
+              you manage your writing
             </p>
+            <Link href="https://github.com/irere123/NEWS">
+              <a>Learn More</a>
+            </Link>
           </div>
         </div>
         <div className={styles.ProjectCard}>
-          <h1 className={styles.news}>QC</h1>
+          <h1 className={styles.QC}>QC</h1>
+          <div className={styles.QCIntro}>
+            <p>
+              QC stands for Quora Clone. on QC you can post questions, answer
+              questions and comments on others answers also if you want to track
+              the topics you're interested in you can do it.
+            </p>
+            <Link href="https://github.com/irere123/Django-PWA">
+              <a>Learn More</a>
+            </Link>
+          </div>
         </div>
         <div className={styles.ProjectCard}>
-          <h1 className={styles.twt}>TWC</h1>
+          <h1 className={styles.twc}>TWC</h1>
+          <div className={styles.TWCIntro}>
+            <p>
+              TWC stands for Twitter Clone. This is a copy of twitter where you
+              can tweet about stuff, follow people and more twitter related
+              stuff
+            </p>
+            <Link href="https://github.com/irere123/twitter-clone-client">
+              <a>Learn More</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
