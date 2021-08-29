@@ -172,6 +172,12 @@
   width: 170px;
   height: 150px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: transfrom 100ms ease-in-out;
+}
+
+.SkillCard:hover {
+  transform: scale(1.09);
 }
 
 .MoreButton {
@@ -183,6 +189,21 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+
+.SkillCategory {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", Calibri;
+  margin-top: 10px;
+}
+
+.SkillsList {
+  font-family: "Ubuntu", Calibri;
+}
+
+.SkillsList > ul {
+  list-style: circle;
 }
 
 /* Small screen */

@@ -41,10 +41,11 @@ function Card() {
         </div>
         <div className={styles.cardText}>
           <p>
-            Hi, You're here at my website to see what i can do for you so let's
-            start you can use the hire me link to contact me and to see my works
-            you can use the projects link. So who am i ? I am a Programmer,
-            Student and Typescript and React.js Enthusiast.
+            Hi, You are looking at my social media headlines these are the
+            places where you will be able to find me and contact me. You can
+            find most of my projects on my Github account and this website is
+            also there. To message me or DM me you can check me out I am always
+            around to respond to you. Thanks!!!
           </p>
         </div>
       </div>

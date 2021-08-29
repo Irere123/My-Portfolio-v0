@@ -1,12 +1,20 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 import styles from "../styles/Projects.module.css";
 
 function Projects() {
   return (
     <div className={styles.Projects}>
-      <h1>Projects</h1>
+      <Head>
+        <title>Irere Emmanuel - Projects</title>
+        <meta
+          name="description"
+          content="Hi, I am Irere Emmanuel this whta i have worked on so far"
+        />
+      </Head>
+      <h1>My Projects</h1>
       <div className={styles.ProjectsCards}>
         <div className={styles.ProjectCard}>
           <h1 className={styles.neox}>NEOX</h1>
