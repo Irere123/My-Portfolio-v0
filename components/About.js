@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,7 +9,7 @@ function About() {
   return (
     <div>
       <div className={styles.AboutTitle}>
-        <h1>Hello, world</h1>
+        <h1>I'am Irere</h1>
       </div>
       <div className={styles.AboutText}>
         <h4>
@@ -33,11 +34,6 @@ function About() {
         <div className={styles.SkillCard}></div>
         <div className={styles.SkillCard}></div>
         <div className={styles.SkillCard}></div>
-        <div className={styles.MoreButton}>
-          <Link href="/skills">
-            <a>More</a>
-          </Link>
-        </div>
       </div>
     </div>
   );

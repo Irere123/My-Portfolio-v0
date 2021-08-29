@@ -36,6 +36,22 @@
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   margin-top: 10px;
+  cursor: pointer;
+  font-family: "Ubuntu", Calibri;
+}
+
+.cardProfile:hover {
+  animation: td 600ms forwards;
+}
+
+@keyframes td {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 .cardProfileImage {
@@ -48,6 +64,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cardProfileImage > .Img {
+  width: 100px;
+  height: 100px;
 }
 
 .cardButtons {
@@ -82,6 +103,7 @@
 
 .AboutText {
   width: 500px;
+  font-family: "Ubuntu", Calibri;
 }
 
 .AboutText > h4 {
@@ -94,6 +116,7 @@
 
 .ContactButton > * {
   margin-right: 30px;
+  font-family: "Ubuntu", Calibri;
 }
 
 .ContactButton > .HireMeButton {
@@ -106,6 +129,7 @@
   font-size: 20px;
   border-radius: 7px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: transfrom 100ms ease-in-out;
 }
 
 .HireMeButton:hover {
@@ -122,6 +146,7 @@
   font-size: 20px;
   border-radius: 7px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: transfrom 100ms ease-in-out;
 }
 
 .ProjectsButton:hover {
@@ -138,7 +163,7 @@
 
 .SkillsTitle {
   font-size: 20px;
-  font-family: Calibri;
+  font-family: "Ubuntu", Calibri;
 }
 
 .SkillCard {

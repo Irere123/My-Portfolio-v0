@@ -1,15 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { GitHub, Facebook, Twitter, Instagram } from "@material-ui/icons";
 
 import styles from "../styles/Home.module.css";
+import profilePic from "../public/pic.jpg";
 
 function Card() {
   return (
     <div className={styles.CardContainer}>
       <div className={styles.cardProfile}>
-        <div className={styles.cardProfileImage}></div>
+        <div className={styles.cardProfileImage}>
+          {/* <Image src={profilePic} alt="Irere Emmy" className={styles.Img} /> */}
+        </div>
         <div className={styles.cardButtons}>
           <Link href="https://www.github.com/irere123">
             <a>
