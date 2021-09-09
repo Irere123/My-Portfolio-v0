@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="twitter:image" content="/irere.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:author" content="@irere_emmanuel" />
       </Head>
       <Header />
       <Component {...pageProps} />
