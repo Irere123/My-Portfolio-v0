@@ -15,7 +15,14 @@ function Projects() {
           content="Hi, I am Irere Emmanuel this whta i have worked on so far"
         />
       </Head>
-      <h1>My Projects</h1>
+      <div>
+        <h1>My Projects</h1>
+        <div className={styles.GoBackHome}>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </div>
+      </div>
       <div className={styles.ProjectsCards}>
         <div className={styles.ProjectCard}>
           <h1 className={styles.neox}>NEOX</h1>
