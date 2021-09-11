@@ -13,14 +13,14 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="What's up this is my a link to my website where you can get to know whta can do."
         />
-        <meta property="og:image" content="/irere.jpg" />
+        <meta property="og:image" content="/ie-web.png" />
         <meta property="og:url" content="https://irere.vercel.app/" />
         <meta name="twitter:title" content="Hi, I'am Irere Emmanuel" />
         <meta
           name="twitter:description"
           content="Do you want get full build website that meet your requirements and build with modern technologies. Then I am here for you."
         />
-        <meta name="twitter:image" content="/irere.jpg" />
+        <meta name="twitter:image" content="/ie-web.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:author" content="@irere_emmanuel" />
       </Head>
