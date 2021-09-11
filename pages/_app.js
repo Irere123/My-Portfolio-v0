@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Hi, I'am Irere Emmanuel" />
         <meta
           property="og:description"
-          content="What's up this is my a link to my website where you can get to know whta can do."
+          content="What's up this is my a link to my website where you can get to know what i can do for you."
         />
         <meta
           property="og:image"
