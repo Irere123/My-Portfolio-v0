@@ -11,7 +11,6 @@ export default function Home() {
         <title>Irere Emmanuel - Home</title>
         <meta name="description" content="Hi, I am Irere Emmanuel" />
       </Head>
-
       <div className={styles.mainContent}>
         <div>
           <Card />

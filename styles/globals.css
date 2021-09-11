@@ -3,7 +3,7 @@
 
 html,
 body {
-  background-color: #f6f6f6;
+  /* background-color: var(--color-primary); */
   padding: 0;
   margin: 0;
   margin-left: 20px;
@@ -18,6 +18,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #0a1929;
+  --color-secondary: #348ae8;
+  --color-text-primary: #f3f6f9;
+  --color-text-secondary: #aab4be;
+  --color-border-primary: #132f4c;
+  --color-border-secondary: #283543;
+}
+
+.MuiSvgIcon-root {
+  color: #fff;
 }
 
 @media only screen and (max-width: 618px) {
