@@ -186,7 +186,7 @@
 .SkillsTitle {
   font-size: 20px;
   font-family: "Ubuntu", Calibri;
-  color: var(--color-text-primary);
+  color: var(--color-border-primary);
 }
 
 .SkillCard {
