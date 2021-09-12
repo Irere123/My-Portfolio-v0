@@ -58,7 +58,7 @@ function Projects() {
               questions and comments on others answers also if you want to track
               the topics you're interested in you can do it.
             </p>
-            <Link href="https://github.com/irere123/Django-PWA">
+            <Link href="https://github.com/Irere123/Django-PWA-App">
               <a>Learn More</a>
             </Link>
           </div>
