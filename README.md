@@ -5,11 +5,11 @@
 `install dependencies`
 
 ```bash
-   $ yarn
+$ yarn
 ```
 
 `start development server`
 
 ```bash
-   $ yarn dev
+$ yarn dev
 ```
