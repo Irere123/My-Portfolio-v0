@@ -108,7 +108,7 @@
 
 .AboutTitle {
   font-size: 30px;
-  font-family: "Source Code Pro";
+  font-family: "Source Code Pro", "Ubuntu", sans-serif;
   color: var(--color-secondary);
 }
 
