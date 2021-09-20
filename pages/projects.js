@@ -38,6 +38,19 @@ function Projects() {
           </div>
         </div>
         <div className={styles.ProjectCard}>
+          <h1 className={styles.news}>BOARD</h1>
+          <div className={styles.NewsIntro}>
+            <p>
+              BOARD allows users top post, see tips, see community messages or
+              announcements and allows users to see what's trending and post
+              trending stuff from diffent sources.
+            </p>
+            <Link href="https://github.com/irere123/NEWS">
+              <a>Learn More</a>
+            </Link>
+          </div>
+        </div>
+        <div className={styles.ProjectCard}>
           <h1 className={styles.news}>NEWS</h1>
           <div className={styles.NewsIntro}>
             <p>
