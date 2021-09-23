@@ -9,10 +9,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Irere Emmanuel - Home</title>
-        <meta
-          name="description"
-          content="Irere Emmanuel is a programmer, student and React.js and Typescript Enthuasist. He specializes in web dev and mobile dev and everthing in between. He also likes using Typescript to create his projects"
-        />
       </Head>
       <div className={styles.mainContent}>
         <div>

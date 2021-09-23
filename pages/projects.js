@@ -12,7 +12,7 @@ function Projects() {
         <title>Irere Emmanuel - Projects</title>
         <meta
           name="description"
-          content="Hi, I am Irere Emmanuel this whta i have worked on so far"
+          content="Hi, I am Irere Emmanuel this is what i have worked on so far"
         />
       </Head>
       <div>
