@@ -29,7 +29,7 @@ function Projects() {
           <div className={styles.NeoxIntro}>
             <p>
               NEOX is a platform for communication between students and other
-              peple as well where you can collaborate and solve problems
+              people as well where you can collaborate and solve problems
               together in teams
             </p>
             <Link href="https://neoxrw.netlify.com/register">
