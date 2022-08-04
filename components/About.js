@@ -15,8 +15,7 @@ function About() {
         <h4>
           Hello, How are you. Let's know each well and let me introduce myself.
           I am a student, a programmer, a React.js, Javascript and Typescript
-          enthusiast. I also work as a freelancer and I make websites, apps, and
-          APIs for my customers
+          enthusiast. Currently working on how to change the way we learn....
         </h4>
       </div>
       <div className={styles.ContactButton}>
@@ -35,15 +34,15 @@ function About() {
           <h3 className={styles.SkillCategory}>Languages</h3>
           <div className={styles.SkillsList}>
             <ul>
+              <li>Elixir</li>
               <li>Typescript</li>
-              <li>Javascript</li>
               <li>Python</li>
-              <li>SQL</li>
+              <li>Javascript</li>
             </ul>
           </div>
         </div>
         <div className={styles.SkillCard}>
-          <h3 className={styles.SkillCategory}>Back end</h3>
+          <h3 className={styles.SkillCategory}>Backend</h3>
           <div className={styles.SkillsList}>
             <ul>
               <li>GraphQL APIs</li>
@@ -54,7 +53,7 @@ function About() {
           </div>
         </div>
         <div className={styles.SkillCard}>
-          <h3 className={styles.SkillCategory}>Front end</h3>
+          <h3 className={styles.SkillCategory}>Frontend</h3>
           <div className={styles.SkillsList}>
             <ul>
               <li>React.js</li>
