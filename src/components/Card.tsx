@@ -1,44 +1,53 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { GitHub, Facebook, Twitter, Instagram } from "@material-ui/icons";
-
-import styles from "../styles/Home.module.css";
+import { ArrowIcon } from "./ArrowIcon";
 
 function Card() {
   return (
-    <div className={styles.CardContainer}>
-      <div className={styles.cardProfile}>
-        <div className={styles.cardProfileImage}>
-          <img className={styles.Image} src={`/irere.jpg`} alt="Irere Emmy" />
+    <section>
+      <div className="flex gap-7 text-black">
+        <div>
+          <img
+            className="rounded-lg border-2 border-neutral-200 dark:border-neutral-700"
+            src={`/irere.jpg`}
+            alt="Irere Emmy"
+          />
         </div>
-        <div className={styles.cardButtons}>
-          <Link href="https://www.github.com/irere123">
-            <GitHub />
-          </Link>
-
-          <Link href="https://twitter.com/irere_emmanuel">
-            <Twitter />
-          </Link>
-
-          <Link href="https://www.instagram.com/irere_25/">
-            <Instagram />
-          </Link>
-
-          <Link href="https://www.facebook.com/irere.emmanuel.5">
-            <Facebook />
-          </Link>
-        </div>
-        <div className={styles.cardText}>
-          <p>
-            Hi, You are looking at my social media headlines these are the
-            places where you will be able to find me and contact me. You can
-            find most of my projects on my Github account and this website is
-            also there. To message me or DM me you can check me out I am always
-            around to respond to you. Thanks!!!
-          </p>
+        <div className="flex flex-1 flex-col gap-5">
+          <a
+            href={`/blog/`}
+            className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
+          >
+            <div className="flex flex-col">
+              <p className="font-bold text-neutral-900 dark:text-neutral-100">
+                Twitter
+              </p>
+              <p>12 followers</p>
+            </div>
+            <div className="text-neutral-700 dark:text-neutral-300">
+              <ArrowIcon />
+            </div>
+          </a>
+          <a
+            href={`/blog/`}
+            className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
+          >
+            <div className="flex flex-col">
+              <p className="font-bold text-neutral-900 dark:text-neutral-100">
+                Github
+              </p>
+              <p>1000 contributions</p>
+            </div>
+            <div className="text-neutral-700 dark:text-neutral-300">
+              <ArrowIcon />
+            </div>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

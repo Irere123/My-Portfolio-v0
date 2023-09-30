@@ -1,14 +1,26 @@
+"use client";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 
-import styles from "../styles/Home.module.css";
-
 function Header() {
+  const { push } = useRouter();
   return (
-    <div className={styles.Header}>
-      <div className={styles.IElogo}>
-        <h1>IE</h1>
+    <nav className="flex gap-2">
+      <h3
+        onClick={() => push(`/`)}
+        className="text-black dark:text-white animate-ping text-3xl hover:animate-none"
+      >
+        I"E
+      </h3>
+      <div className="flex flex-1  gap-4  mb-8 justify-end">
+        <Link href={`/workshop`} className="hover:animate-pulse ease-in">
+          workshop
+        </Link>
+        <Link href={`/uses`}>uses</Link>
+        <Link href={`https://irere-blog.vercel.app`}>blog</Link>
       </div>
-    </div>
+    </nav>
   );
 }
 

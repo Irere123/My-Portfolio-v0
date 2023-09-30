@@ -2,21 +2,23 @@
 
 import About from "../components/About";
 import Card from "../components/Card";
+import { Container } from "../components/Container";
+import Header from "../components/Header";
 
 export default function HomePage() {
   return (
-    <div>
-      {/* <Head>
-      <title>Irere Emmanuel - Home</title>
-    </Head> */}
+    <Container>
       <div>
         <div>
-          <Card />
-        </div>
-        <div>
-          <About />
+          <Header />
+          <div>
+            <Card />
+          </div>
+          <div>
+            <About />
+          </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }

@@ -7,8 +7,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className="text-black bg-white dark:text-white dark:bg-[#111010]"
+    >
+      <body className="max-w-2xl mb-40 lg:m-auto flex mx-4 mt-8 flex-row md:flex-row">
+        <main className="flex-auto mt-6 m-w-0">{children}</main>
+      </body>
     </html>
   );
 }
