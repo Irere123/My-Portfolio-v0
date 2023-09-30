@@ -1,15 +1,11 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import Badge from "./Badge";
-import Image from "next/image";
-import irere from "public/irere.jpg";
-import { ArrowIcon } from "./ArrowIcon";
 
 function About() {
   return (
-    <div className="mt-8">
+    <div className="my-8">
       <div>
         <h1 className="font-bold text-2xl mb-8 tracking-tighter">
           hey, I'm Irere 👋
@@ -116,34 +112,20 @@ function About() {
           something with them
         </p>
       </div>
-      <div className="columns-2 sm:columns-3 gap-4 my-8">
-        <div className="relative h-40 mb-4">
-          <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-            <p>Typescript</p>
-          </div>
+      <div className="flex sm:flex-row flex-col w-full justify-evenly gap-4 my-8">
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <p>Typescript</p>
         </div>
-        <div className="relative h-40 mb-4 sm:0">
-          <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-            <p>Python</p>
-          </div>
+
+        <div
+          style={{ width: "(max-width: 768px) 213px, 33vw" }}
+          className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4"
+        >
+          <p>Rest and GQL APIs</p>
         </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
-          <div
-            style={{ width: "(max-width: 768px) 213px, 33vw" }}
-            className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4"
-          >
-            <p>Rest and GQL APIs</p>
-          </div>
-        </div>
-        <div className="relative h-40 mb-4">
-          <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-            <p>React and Svelte</p>
-          </div>
-        </div>
-        <div className="relative h-40 mb-4">
-          <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
-            <p>Elixir with Phoniex</p>
-          </div>
+
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
+          <p>Elixir with Phoniex</p>
         </div>
       </div>
     </div>

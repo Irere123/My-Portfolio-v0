@@ -12,6 +12,7 @@
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "next": "lastest",
+    "octokit": "^3.1.1",
     "react": "lastest",
     "react-dom": "lastest"
   },
