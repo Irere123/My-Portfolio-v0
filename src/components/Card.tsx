@@ -7,7 +7,7 @@ function Card() {
   return (
     <section>
       <div className="flex sm:flex-row flex-col gap-10 text-black">
-        <div>
+        <div className="flex sm:justify-start justify-center">
           <img
             className="rounded-lg hover:animate-spin border-2 border-neutral-200 dark:border-neutral-700"
             src={`/irere.jpg`}

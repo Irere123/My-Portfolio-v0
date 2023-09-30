@@ -1,5 +1,38 @@
 import React from "react";
 import "../styles/globals.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://irere.vercel.app"),
+  title: {
+    default: "Irere Emmanuel",
+    template: "%s | Irere Emmanuel",
+  },
+  description: "Developer, writer, and student.",
+  openGraph: {
+    title: "Irere Emmanuel",
+    description: "Developer, writer, and student.",
+    url: "https://irere.vercel.app",
+    siteName: "Irere Emmanuel",
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    title: "Irere Emmanuel",
+    card: "summary_large_image",
+  },
+};
 
 export default function RootLayout({
   children,

@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import Header from "../../components/Header";
+
+export const metadata: Metadata = {
+  title: "Workshop",
+};
 
 export default function WorkshopPage() {
   return (
@@ -12,7 +17,7 @@ export default function WorkshopPage() {
       </div>
       <div className="flex flex-col gap-4 pb-8">
         <a
-          href="/blog/heroku"
+          href="https://github.com/Irere123/NEOX"
           className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
         >
           <div className="flex flex-col">
@@ -41,7 +46,7 @@ export default function WorkshopPage() {
           </div>
         </a>
         <a
-          href="/blog/heroku"
+          href="https://github.com/Irere123/swipe"
           className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
         >
           <div className="flex flex-col">
@@ -69,7 +74,7 @@ export default function WorkshopPage() {
           </div>
         </a>
         <a
-          href="/blog/heroku"
+          href="https://github.com/Irere123/blog"
           className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
         >
           <div className="flex flex-col">
@@ -97,7 +102,7 @@ export default function WorkshopPage() {
           </div>
         </a>
         <a
-          href="/blog/heroku"
+          href="https://github.com/Irere123/Django-PWA-App"
           className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
         >
           <div className="flex flex-col">
