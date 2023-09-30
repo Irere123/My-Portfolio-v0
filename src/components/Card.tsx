@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { ArrowIcon } from "./ArrowIcon";
 
 function Card() {
   return (
     <section>
-      <div className="flex sm:flex-row flex-col gap-7 text-black">
+      <div className="flex sm:flex-row flex-col gap-10 text-black">
         <div>
           <img
-            className="rounded-lg border-2 border-neutral-200 dark:border-neutral-700"
+            className="rounded-lg hover:animate-spin border-2 border-neutral-200 dark:border-neutral-700"
             src={`/irere.jpg`}
             alt="Irere Emmy"
           />
@@ -30,7 +30,7 @@ function Card() {
             </div>
           </a>
           <a
-            href={`/blog/`}
+            href={`https://github.com/irere123`}
             className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 w-full"
           >
             <div className="flex flex-col">

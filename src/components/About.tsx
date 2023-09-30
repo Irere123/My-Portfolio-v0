@@ -112,7 +112,7 @@ function About() {
           something with them
         </p>
       </div>
-      <div className="flex sm:flex-row flex-col w-full justify-evenly gap-4 my-8">
+      <div className="flex sm:flex-row flex-col w-full justify-evenly gap-4 mt-8 pb-7">
         <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4">
           <p>Typescript</p>
         </div>
