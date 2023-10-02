@@ -9,9 +9,9 @@ function Header() {
     <nav className="flex gap-2">
       <h3
         onClick={() => push(`/`)}
-        className="text-black cursor-pointer dark:text-white text-3xl hover:animate-none"
+        className="text-black cursor-pointer dark:text-white text-xl font-bold hover:animate-none"
       >
-        IE
+        @irereemmy
       </h3>
       <div className="flex flex-1  gap-4  mb-8 justify-end">
         <Link href={`/workshop`} className="hover:animate-pulse ease-in">

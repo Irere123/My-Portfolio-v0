@@ -8,7 +8,7 @@ function About() {
     <div className="my-8">
       <div>
         <h1 className="font-bold text-2xl mb-8 tracking-tighter">
-          hey, I'm Irere 👋
+          hi, i'm Irere! <span className="animate-pulse text-xl">👋</span>
         </h1>
       </div>
       <div>

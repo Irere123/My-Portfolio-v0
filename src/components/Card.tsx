@@ -7,13 +7,13 @@ function Card() {
   return (
     <section>
       <div className="flex sm:flex-row flex-col gap-10 text-black">
-        <div className="flex sm:justify-start justify-center">
+        {/* <div className="flex sm:justify-start justify-center">
           <img
             className="rounded-lg hover:animate-spin border-2 border-neutral-200 dark:border-neutral-700"
             src={`/irere.jpg`}
             alt="Irere Emmy"
           />
-        </div>
+        </div> */}
         <div className="flex flex-1 flex-col gap-5">
           <a
             href={`https://twitter.com/irere_emmanuel`}
