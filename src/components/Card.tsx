@@ -23,7 +23,9 @@ function Card() {
               <p className="font-bold text-neutral-900 dark:text-neutral-100">
                 Twitter
               </p>
-              <p>Talk to me here</p>
+              <p className="text-neutral-700 dark:text-neutral-300">
+                Talk to me here
+              </p>
             </div>
             <div className="text-neutral-700 dark:text-neutral-300">
               <ArrowIcon />
@@ -37,7 +39,9 @@ function Card() {
               <p className="font-bold text-neutral-900 dark:text-neutral-100">
                 Github
               </p>
-              <p>View public work here</p>
+              <p className="text-neutral-700 dark:text-neutral-300">
+                View public work here
+              </p>
             </div>
             <div className="text-neutral-700 dark:text-neutral-300">
               <ArrowIcon />
