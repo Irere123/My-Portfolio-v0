@@ -9,12 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "next": "lastest",
+    "next": "^13.5.6",
     "octokit": "^3.1.1",
-    "react": "lastest",
-    "react-dom": "lastest"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "20.7.2",
